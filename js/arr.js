@@ -35,3 +35,5 @@ console.log("paprastasMasyvas.unshift('Coral') ===", paprastasMasyvas.unshift('C
 console.log('paprastasMasyvas ===', paprastasMasyvas);
 
 console.log('paprastasMasyvas.shift() ===', paprastasMasyvas.shift());
+
+let sent1 = 'Sveiki mano vardas James';
