@@ -20,3 +20,8 @@
    3.2. vietoj 'Sveiki' iterpti "Laba diena"
 
    3.3 tarp 'vardas' ir 'James' iterpti 'yra'
+
+5. let sent1 = [ 'Sveiki', 'mano', 'vardas', 'James' ] let sent2 = [ '. ', 'is', 'Londono']
+   1. sujujngti masyvus i viena
+   2. suskaicuoti kiek kieviename masyve yra elementu
+   3. is sujungto masyvo grazinti atskirame masyve  ['vardas', 'James', '. ', 'is' ]

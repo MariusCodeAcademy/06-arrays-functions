@@ -2,7 +2,6 @@
 console.log('music.js');
 
 // 1. Pabandykime atlikti 5 masyvo (Array) operacijas.
-// 6. Pridėkite į masyvo pradžią „Rap“ ir „Reggae“ į masyvą.
 
 // 2. Sukurkite masyvą (Array) styles su elementais „Jazz“ ir „Blues“.
 let music = ['Jazz', 'Blues'];
@@ -22,3 +21,8 @@ console.log('istrintasPirmas ===', istrintasPirmas);
 console.log('music ===', music);
 // alert(istrintasPirmas);
 document.getElementById('title').textContent = istrintasPirmas;
+
+// 6. Pridėkite į masyvo pradžią „Rap“ ir „Reggae“ į masyvą.
+music.unshift('Rap', 'Reggae');
+// music.splice(0, 0, 'Rap', 'Reggae'); // same effect
+console.log('music ===', music);
