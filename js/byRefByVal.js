@@ -18,6 +18,8 @@ console.log('aCopy ===', aCopy);
 let numArr = [5];
 
 let numArrCopy = numArr;
+// sekli masyvo kopija
+let tikraKopija = numArr.slice();
 
 // pakeiciu "kopija"
 numArrCopy.push(4258);
